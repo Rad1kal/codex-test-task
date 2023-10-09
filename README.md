@@ -25,10 +25,10 @@
 
 ## Использование
 
-Все свойства для кастомизации передаём как пропсы:
-type: solid, outline, soft, ghost - типы кнопок
-size: s, m, l - размеры кнопок
-btStyle: primary, secondary, danger - цветовая гамма кнопок
-design: leading, trailing, leadingTrailing, standalone - наполнение кнопки
+Все свойства для кастомизации передаём как пропсы: \
+type: solid, outline, soft, ghost - типы кнопок\
+size: s, m, l - размеры кнопок\
+btStyle: primary, secondary, danger - цветовая гамма кнопок\
+design: leading, trailing, leadingTrailing, standalone - наполнение кнопки\
 
-Состояния наведения и деактивации используются как в обычной разметке.
+Состояния наведения и деактивации используются как в обычной разметке.\
