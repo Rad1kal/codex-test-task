@@ -1,0 +1,192 @@
+@font-face {
+	font-family: 'Source Sans 3'; 
+	src: local('Font Name'), local('Font-Name'),
+		url(./Source_Sans_3/SourceSans3-Regular.ttf); 
+}
+
+.btn {
+    display: flex;
+
+    border: none;
+    align-items: center;
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: fit-content;
+    background-color: transparent;
+
+    font-family: 'Source Sans 3';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.28px;
+
+    &:disabled {
+        background-color: #30343B;
+        color: #94979A;
+        &:hover {
+            background-color: #30343B;
+        }
+    }
+
+    &_s{
+        padding: 4px 8px;   
+        gap: 2px;
+    }
+    &_m{
+        padding: 8px 12px;  
+        gap: 6px; 
+    }
+    &_l{
+        padding: 12px 20px;   
+        gap: 12px;
+    }
+
+    &_solid_primary {
+        background-color: #369FFF;
+        &:hover {
+            background-color: #0274DC;
+        }
+    }
+    &_solid_secondary {
+        background-color: #30343B;
+        &:hover {
+            background-color: #1A1B1C;
+        }
+    }
+    &_solid_danger {
+        background-color: #D32A2A;
+        &:hover {
+            background-color: #8A1D1D;
+        }
+    }
+        
+    &_outline_primary {
+        border: 1px solid rgba(54, 159, 255, 0.22);
+        color: #369FFF;
+        &:hover{
+            background-color: rgba(54, 159, 255, 0.12);
+        }
+        &:disabled {
+            background-color: transparent;
+            border: 1px solid rgba(48, 52, 59, 0.70);
+            &:hover{
+                background-color: transparent;
+            }
+            color: #94979A;
+        }
+    }
+    &_outline_secondary {
+        border: 1px solid rgba(48, 52, 59, 0.70);
+        color: rgba(255, 255, 255, 0.70);
+        &:hover{
+            background-color: rgba(48, 52, 59, 0.50);
+        }
+        &:disabled {
+            background-color: transparent;
+            border: 1px solid rgba(48, 52, 59, 0.70);
+            &:hover{
+                background-color: transparent;
+            }
+            color: #94979A;
+        }
+    }
+    &_outline_danger {
+        border: 1px solid rgba(211, 42, 42, 0.20);
+        color: #D32A2A;
+        &:hover{
+            background-color: rgba(211, 42, 42, 0.12);
+        }
+        &:disabled {
+            background-color: transparent;
+            border: 1px solid rgba(48, 52, 59, 0.70);
+            &:hover{
+                background-color: transparent;
+            }
+            color: #94979A;
+        }
+    }
+    &_soft_primary {
+        color: #369FFF;
+        background-color: rgba(54, 159, 255, 0.12);
+        &:hover{
+            background-color: rgba(54, 159, 255, 0.22);
+        }
+        &:disabled {
+            background-color: rgba(48, 52, 59, 0.50);
+            &:hover{
+                background-color: rgba(48, 52, 59, 0.50);;
+            }
+            color: #94979A;
+        }
+    }
+    &_soft_secondary {
+        background-color: rgba(48, 52, 59, 0.50);
+        &:hover{
+            background-color: rgba(48, 52, 59, 0.70);
+        }
+        &:disabled {
+            background-color: rgba(48, 52, 59, 0.50);
+            &:hover{
+                background-color: rgba(48, 52, 59, 0.50);;
+            }
+            color: #94979A;
+        }
+    }
+    &_soft_danger {
+        color: #D32A2A;
+        background-color: rgba(211, 42, 42, 0.12);
+        &:hover{
+            background-color: rgba(211, 42, 42, 0.20);
+        }
+        &:disabled {
+            background-color: rgba(48, 52, 59, 0.50);
+            &:hover{
+                background-color: rgba(48, 52, 59, 0.50);;
+            }
+            color: #94979A;
+        }
+    }
+    &_gost_primary {
+        color: #369FFF;
+        background-color: transparent;
+        &:hover{
+            background-color: rgba(54, 159, 255, 0.12);
+        }
+        &:disabled {
+            background-color: transparent;
+            &:hover{
+                background-color: transparent;
+            }
+            color: #94979A;
+        }
+    }
+    &_gost_secondary {
+        color: rgba(255, 255, 255, 0.70);
+        background-color: transparent;
+        &:hover{
+            background-color: rgba(48, 52, 59, 0.50);
+        }
+        &:disabled {
+            background-color: transparent;
+            &:hover{
+                background-color: transparent;
+            }
+            color: #94979A;
+        }
+    }
+    &_gost_danger {
+        color: #D32A2A;
+        background-color: transparent;
+        &:hover{
+            background-color: rgba(211, 42, 42, 0.12);
+        }
+        &:disabled {
+            background-color: transparent;
+            &:hover{
+                background-color: transparent;
+            }
+            color: #94979A;
+        }
+    }
+}
